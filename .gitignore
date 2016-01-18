@@ -1,0 +1,8 @@
+.buildpath
+/backup
+/build/logs
+/build/phar
+/build/coverage
+/composer.lock
+/phpbu.xml
+/vendor/
