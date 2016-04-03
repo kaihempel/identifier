@@ -12,6 +12,25 @@ Installing *Identifier* via Composer.
 
 ```json
   "require": {
-    "kaihempel/identifier": "0.1.*"
+    "kaihempel/identifier": "1.0.*"
   }
+```
+
+Using the identifier object instead simple integer variables.
+
+```php
+   $id = new Identifier(1);
+   if($id->is(1)) // true
+   if($id->is(2)) // false
+```
+
+Use type hinting on method or function signatures. 
+
+```php
+   ...
+   public function load(Identifier $id)
+   {
+   ...
+   }
+   ...
 ```
