@@ -4,6 +4,9 @@ use Identifier\Exception\IdentifierException;
 
 /**
  * Identifier class
+ * 
+ * Abstraction for better ID handling inside other projects.
+ * Only numeric ID's supported right now.
  *
  * @package    Identifier
  * @author     Kai Hempel <dev@kuweh.de>
@@ -53,7 +56,7 @@ class Identifier
      */
     public function isEmpty()
     {
-        return (empty($this->id)) ? true : false;
+        return empty($this->id);
     }
 
     /**
