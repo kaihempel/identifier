@@ -24,7 +24,7 @@ Using the identifier object instead simple integer variables.
    if($id->is(2)) // false
 ```
 
-Use type hinting on method or function signatures.
+Use type hinting on method or function signatures to avoid a huge number of numeric checks.
 
 ```php
    ...
