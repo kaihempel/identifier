@@ -4,7 +4,7 @@ use Identifier\Exception\IdentifierException;
 
 /**
  * Identifier class
- * 
+ *
  * Abstraction for better ID handling inside other projects.
  * Only numeric ID's supported right now.
  *
@@ -22,7 +22,7 @@ class Identifier
      *
      * @var integer
      */
-    private $id = NULL;
+    private $id = null;
 
     /**
      * Constructor
