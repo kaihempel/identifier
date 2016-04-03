@@ -11,9 +11,9 @@ For easy ID handling inside other projects.
 Installing *Identifier* via Composer.
 
 ```json
-  "require": {
-    "kaihempel/identifier": "1.0.*"
-  }
+   "require": {
+     "kaihempel/identifier": "1.0.*"
+   }
 ```
 
 Using the identifier object instead simple integer variables.
@@ -24,7 +24,7 @@ Using the identifier object instead simple integer variables.
    if($id->is(2)) // false
 ```
 
-Use type hinting on method or function signatures. 
+Use type hinting on method or function signatures.
 
 ```php
    ...
